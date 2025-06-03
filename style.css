@@ -26,6 +26,8 @@ header img {
     border: 4px solid white;
     margin-bottom: 50px;
     width: 400px;
+    max-width: 100%;
+    height: auto;
 }
 
 main {
