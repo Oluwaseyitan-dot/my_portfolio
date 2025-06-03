@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dynamic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img1.JPG" alt="Oluwaseyitan's Profile" id="profile-img">
+        <h1>Hello, I'm Oluwaseyitan Olanusi</h1>
+        <p>I’m all about aesthetics—whether it’s in writing sleek front-end code or baking picture-perfect pastries.</p>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi! I’m a Computer Science student passionate about front-end development and turning creative ideas into smooth, user-friendly websites.
+
+I also run a small baking brand (OvenTales by OA), love singing, and enjoy peaceful naps. Through it all, I aim to reflect my love for Jesus in everything I do.
+.</p>
+        </section>
+
+        <section id="multimedia-showcase">
+            <h2>Multimedia Showcase</h2>
+            <h3>My Audio Greeting:</h3>
+            <audio controls>
+                <source src="project audio.m4a" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>A Quick Project Video:</h3>
+            <video controls width="320" height="240">
+                <source src="project  video june.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="interactive-skills">
+            <h2>My Skills</h2>
+            <div class="skill-buttons">
+                <button class="skill-btn" data-skill="HTML">HTML</button>
+                <button class="skill-btn" data-skill="CSS">CSS</button>
+                <button class="skill-btn" data-skill="JavaScript">JavaScript</button>
+                <button class="skill-btn" data-skill="Baking">Baking</button>
+            </div>
+            <p id="skill-description">Click a skill to learn more!</p>
+        </section>
+
+        <section id="portfolio-list">
+            <h2>My Projects</h2>
+            <div id="projects-container">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Oluwaseyitan. All rights reserved.</p>
+        <button id="themeToggle">Toggle Dark Mode</button>
+    </footer>
+
+    <script src="final.js"></script>
+</body>
+</html>
